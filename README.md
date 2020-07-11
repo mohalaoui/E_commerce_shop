@@ -54,12 +54,12 @@ statistics="true">
 ## HATEOAS
 
 - dependency:
-<pre><code>
+```xml
 <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-hateoas</artifactId>
 </dependency>
-</code></pre>
+```
 
 - adding link to resource:
   - ResourceRepresentation that extends RepresentationModel<ResourceRepresentation<T>>
