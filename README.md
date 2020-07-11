@@ -48,7 +48,7 @@ overflowToDisk="false" />
 <cache name="product" maxEntriesLocalHeap="10000" eternal="false"
 timeToIdleSeconds="60" timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
 statistics="true">
-</cache>'
+</cache>
 ```
 
 ## HATEOAS
