@@ -40,14 +40,14 @@ spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
   - add custom cache policy by region
 - example:
 <pre><code>
-<defaultCache eternal="false" timeToLiveSeconds="30"
+'<defaultCache eternal="false" timeToLiveSeconds="30"
 memoryStoreEvictionPolicy="LRU" statistics="true" maxElementsInMemory="10000"
 overflowToDisk="false" />
 
 <cache name="product" maxEntriesLocalHeap="10000" eternal="false"
 timeToIdleSeconds="60" timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
 statistics="true">
-</cache>
+</cache>'
 
 </code></pre>
 
