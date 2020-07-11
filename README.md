@@ -39,8 +39,9 @@ spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
   - set the default cache policy
   - add custom cache policy by region
 - example:
-<pre><code>
-'<defaultCache eternal="false" timeToLiveSeconds="30"
+
+```xml
+<defaultCache eternal="false" timeToLiveSeconds="30"
 memoryStoreEvictionPolicy="LRU" statistics="true" maxElementsInMemory="10000"
 overflowToDisk="false" />
 
@@ -48,8 +49,7 @@ overflowToDisk="false" />
 timeToIdleSeconds="60" timeToLiveSeconds="60" memoryStoreEvictionPolicy="LRU"
 statistics="true">
 </cache>'
-
-</code></pre>
+```
 
 ## HATEOAS
 
